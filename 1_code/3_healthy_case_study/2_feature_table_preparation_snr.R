@@ -2,8 +2,8 @@ library(r4projects)
 setwd(get_project_wd())
 rm(list = ls())
 
-load("2_data/3_Xia_Case_Study_v2/data_cleaning/POS/object_pos2.rda")
-load("2_data/3_Xia_Case_Study_v2/data_cleaning/NEG/object_neg2.rda")
+load("data_cleaning/POS/object_pos2.rda")
+load("data_cleaning/NEG/object_neg2.rda")
 
 # ---- helper: compute SNR for each feature ----
 compute_snr <- function(expr_mat, case_ids, control_ids) {
@@ -105,4 +105,4 @@ feature_table_neg <-
 feature_table <- bind_rows(feature_table_pos, feature_table_neg)
 rownames(feature_table) <- 1:nrow(feature_table)
 
-save(feature_table, file = "3_data_analysis/3_Xia_case_study/feature_table_snr.rda")
+save(feature_table, file = "~/Projects/fmsea_manuscript/3_data_analysis/4_MTBLS265/feature_table.rda")
