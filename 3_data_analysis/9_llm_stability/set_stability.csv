@@ -1,0 +1,55 @@
+model,sample_source,pathway_id,pathway_name,n_valid,mode_score,median_score,mode_agreement,n_distinct_scores,score_range,score_sd,reported_score
+GPT-5.5,plasma,hsa00100,Steroid biosynthesis,10,75,75,1,1,0,0,75
+GPT-5.5,plasma,hsa00140,Steroid hormone biosynthesis,10,100,100,0.6,2,25,12.909944487358056,100
+GPT-5.5,plasma,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",10,0,0,1,1,0,0,0
+GPT-5.5,plasma,hsa00830,Retinol metabolism,10,50,50,0.7,2,25,12.0761472884912,50
+GPT-5.5,plasma,hsa00860,Porphyrin metabolism,10,75,75,1,1,0,0,75
+GPT-5.5,plasma,hsa04913,Ovarian steroidogenesis,10,75,75,1,1,0,0,75
+GPT-5.5,plasma,hsa04925,Aldosterone synthesis and secretion,10,75,75,0.6,2,25,12.909944487358056,100
+GPT-5.5,plasma,hsa04976,Bile secretion,10,75,75,1,1,0,0,75
+GPT-5.5,plasma,hsa05200,Pathways in cancer,10,25,25,1,1,0,0,25
+GPT-5.5,urine,hsa00100,Steroid biosynthesis,10,25,25,0.9,2,25,7.905694150420948,25
+GPT-5.5,urine,hsa00140,Steroid hormone biosynthesis,10,75,75,1,1,0,0,75
+GPT-5.5,urine,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",10,0,0,1,1,0,0,0
+GPT-5.5,urine,hsa00830,Retinol metabolism,10,25,25,0.6,2,25,12.909944487358056,25
+GPT-5.5,urine,hsa00860,Porphyrin metabolism,10,75,87.5,0.5,2,25,13.176156917368248,75
+GPT-5.5,urine,hsa04913,Ovarian steroidogenesis,10,50,62.5,0.5,2,25,13.176156917368248,50
+GPT-5.5,urine,hsa04925,Aldosterone synthesis and secretion,10,75,75,1,1,0,0,75
+GPT-5.5,urine,hsa04976,Bile secretion,10,50,50,0.9,2,25,7.905694150420948,50
+GPT-5.5,urine,hsa05200,Pathways in cancer,10,25,25,0.9,2,25,7.905694150420948,25
+Qwen3-32B,plasma,hsa00100,Steroid biosynthesis,10,100,100,0.9,2,25,7.905694150420948,75
+Qwen3-32B,plasma,hsa00140,Steroid hormone biosynthesis,10,100,100,0.9,2,25,7.905694150420948,100
+Qwen3-32B,plasma,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",10,0,0,0.7,2,25,12.0761472884912,0
+Qwen3-32B,plasma,hsa00830,Retinol metabolism,10,100,100,0.7,2,25,12.0761472884912,50
+Qwen3-32B,plasma,hsa00860,Porphyrin metabolism,10,100,100,0.8,2,25,10.540925533894598,75
+Qwen3-32B,plasma,hsa04913,Ovarian steroidogenesis,10,100,100,0.8,2,25,10.540925533894598,75
+Qwen3-32B,plasma,hsa04925,Aldosterone synthesis and secretion,10,100,100,0.9,2,25,7.905694150420948,100
+Qwen3-32B,plasma,hsa04976,Bile secretion,10,75,75,0.6,2,25,12.909944487358056,75
+Qwen3-32B,plasma,hsa05200,Pathways in cancer,10,50,50,0.6,4,75,20.581815058714113,25
+Qwen3-32B,urine,hsa00100,Steroid biosynthesis,10,75,75,0.8,2,25,10.540925533894598,25
+Qwen3-32B,urine,hsa00140,Steroid hormone biosynthesis,10,75,75,0.8,2,25,10.540925533894598,75
+Qwen3-32B,urine,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",10,0,0,0.7,3,75,24.295632895188753,0
+Qwen3-32B,urine,hsa00830,Retinol metabolism,10,75,75,0.9,2,25,7.905694150420948,25
+Qwen3-32B,urine,hsa00860,Porphyrin metabolism,10,100,100,0.8,2,25,10.540925533894598,75
+Qwen3-32B,urine,hsa04913,Ovarian steroidogenesis,10,75,75,0.9,2,25,7.905694150420948,50
+Qwen3-32B,urine,hsa04925,Aldosterone synthesis and secretion,9,75,75,0.8888888888888888,2,25,8.333333333333334,75
+Qwen3-32B,urine,hsa04976,Bile secretion,10,75,75,0.8,2,25,10.540925533894598,50
+Qwen3-32B,urine,hsa05200,Pathways in cancer,10,50,50,0.7,3,50,17.480147469502526,25
+Qwen3.6-35B-A3B,plasma,hsa00100,Steroid biosynthesis,10,75,75,1,1,0,0,75
+Qwen3.6-35B-A3B,plasma,hsa00140,Steroid hormone biosynthesis,10,100,100,0.8,2,25,10.540925533894598,100
+Qwen3.6-35B-A3B,plasma,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",10,0,0,1,1,0,0,0
+Qwen3.6-35B-A3B,plasma,hsa00830,Retinol metabolism,10,75,75,0.7,2,25,12.0761472884912,50
+Qwen3.6-35B-A3B,plasma,hsa00860,Porphyrin metabolism,10,75,75,0.9,2,25,7.905694150420948,75
+Qwen3.6-35B-A3B,plasma,hsa04913,Ovarian steroidogenesis,10,50,50,0.8,2,25,10.540925533894598,75
+Qwen3.6-35B-A3B,plasma,hsa04925,Aldosterone synthesis and secretion,10,100,100,0.7,2,25,12.0761472884912,100
+Qwen3.6-35B-A3B,plasma,hsa04976,Bile secretion,10,75,75,0.9,2,25,7.905694150420948,75
+Qwen3.6-35B-A3B,plasma,hsa05200,Pathways in cancer,10,25,25,0.8,3,50,11.785113019775793,25
+Qwen3.6-35B-A3B,urine,hsa00100,Steroid biosynthesis,10,50,50,0.6,2,25,12.909944487358056,25
+Qwen3.6-35B-A3B,urine,hsa00140,Steroid hormone biosynthesis,10,75,75,0.7,2,25,12.0761472884912,75
+Qwen3.6-35B-A3B,urine,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",10,0,0,1,1,0,0,0
+Qwen3.6-35B-A3B,urine,hsa00830,Retinol metabolism,10,75,75,0.7,2,50,24.1522945769824,25
+Qwen3.6-35B-A3B,urine,hsa00860,Porphyrin metabolism,10,100,100,0.8,2,25,10.540925533894598,75
+Qwen3.6-35B-A3B,urine,hsa04913,Ovarian steroidogenesis,10,50,50,0.6,3,50,15.811388300841896,50
+Qwen3.6-35B-A3B,urine,hsa04925,Aldosterone synthesis and secretion,10,75,75,0.7,2,25,12.0761472884912,75
+Qwen3.6-35B-A3B,urine,hsa04976,Bile secretion,10,75,75,0.6,3,50,23.717082451262844,50
+Qwen3.6-35B-A3B,urine,hsa05200,Pathways in cancer,10,25,25,0.5,3,50,18.446619684315547,25

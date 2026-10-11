@@ -1,0 +1,19 @@
+sample_source,pathway_id,pathway_name,GPT-5.5,Qwen3-32B,Qwen3.6-35B-A3B
+plasma,hsa00100,Steroid biosynthesis,75,100,75
+plasma,hsa00140,Steroid hormone biosynthesis,100,100,100
+plasma,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",0,0,0
+plasma,hsa00830,Retinol metabolism,50,100,75
+plasma,hsa00860,Porphyrin metabolism,75,100,75
+plasma,hsa04913,Ovarian steroidogenesis,75,100,50
+plasma,hsa04925,Aldosterone synthesis and secretion,75,100,100
+plasma,hsa04976,Bile secretion,75,75,75
+plasma,hsa05200,Pathways in cancer,25,50,25
+urine,hsa00100,Steroid biosynthesis,25,75,50
+urine,hsa00140,Steroid hormone biosynthesis,75,75,75
+urine,hsa00524,"Neomycin, kanamycin and gentamicin biosynthesis",0,0,0
+urine,hsa00830,Retinol metabolism,25,75,75
+urine,hsa00860,Porphyrin metabolism,75,100,100
+urine,hsa04913,Ovarian steroidogenesis,50,75,50
+urine,hsa04925,Aldosterone synthesis and secretion,75,75,75
+urine,hsa04976,Bile secretion,50,75,75
+urine,hsa05200,Pathways in cancer,25,50,25

@@ -1,0 +1,4 @@
+model,n_runs,prop_runs_plasma_higher_majority,prop_runs_no_urine_higher,median_n_plasma_higher,prop_runs_wilcoxon_p_lt_0.05
+GPT-5.5,10,1,0.5,5,0.4
+Qwen3-32B,10,1,0.7,4.5,0.3
+Qwen3.6-35B-A3B,10,0.8,0.3,3.5,0.2

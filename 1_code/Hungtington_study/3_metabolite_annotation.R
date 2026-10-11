@@ -3,6 +3,12 @@ library(tidymass)
 load("2_data/6_Huntington/data_cleaning/POS/object_pos2.rda")
 load("2_data/6_Huntington/data_cleaning/NEG/object_neg2.rda")
 
+load("~/Tidymass/ms2_original/gnps_ms2.rda")
+load("~/Tidymass/ms2_original/hmdb_ms2.rda")
+load("~/Tidymass/ms2_original/massbank_ms2.rda")
+load("~/Tidymass/ms2_original/mona_ms2.rda")
+
+
 object_pos2 <-
   mutate_ms2(
     object = object_pos2,
